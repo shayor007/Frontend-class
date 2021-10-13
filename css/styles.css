@@ -32,3 +32,67 @@ body {
   list-style: none;
   padding: 0px 10px;
 }
+
+.hero_section {
+  background-color: beige;
+  padding: 40px;
+  min-height: 300px;
+  /* display: flex; */
+  align-items: center;
+}
+
+.cta_container {
+  text-align: left;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.cta_heading{
+  font-size: 4em;
+  padding: 0px;
+  margin: 0px;
+}
+
+.cta_subtitle {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.5em;
+}
+
+.cta_button {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  background-color: brown;
+  color:white;
+  transition: .5s all ease-in-out;
+  border-radius: 20px;
+}
+
+.cta_button:hover {
+  background-color: transparent;
+  color: brown;
+  transition: .5s all ease-in-out;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cta_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1em;
+  
+}
+
+.hero_image {
+  padding: 30px;
+  max-width: 400px;
+}
+
+.hero_image_style {
+  border-radius: 30px;
+}
